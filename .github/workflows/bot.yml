@@ -1,0 +1,34 @@
+name: Bot crypto (simulation)
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"   # toutes les 10 minutes (GitHub peut prendre quelques minutes de retard)
+  workflow_dispatch:          # bouton "Run workflow" pour lancer un passage a la main
+
+permissions:
+  contents: write             # pour enregistrer etat.json et journal.csv apres chaque passage
+
+concurrency:
+  group: bot-crypto
+  cancel-in-progress: false
+
+jobs:
+  passage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Lancer le bot
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python bot.py
+      - name: Enregistrer l'etat de la simulation
+        run: |
+          git config user.name "bot-simulation"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add etat.json journal.csv 2>/dev/null || git add etat.json
+          git diff --cached --quiet || git commit -m "Passage du bot $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push || (git pull --rebase && git push)

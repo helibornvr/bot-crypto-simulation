@@ -1,0 +1,121 @@
+{
+  "_note": "Niveaux du Carnet de cycles crypto, cycle 1 (24 nov. 2026), convertis en euros a 1 EUR = 1,097 USD. t1/t2 = prix d'achat des 2 tranches, stop, tp1/tp2 = objectifs 1 et 2.",
+  "cycle": 1,
+  "capital_depart_eur": 220,
+  "frais_pct": 0.6,
+  "pause_si_btc_24h_pct": -5,
+  "blocage_achats_pct": -10,
+  "arret_total_pct": -20,
+  "heure_bilan_paris": 20,
+  "duree_max_cycle_jours": 42,
+  "cryptos": [
+    {
+      "symbole": "BTC",
+      "budget_eur": 100,
+      "t1": 54240.0,
+      "t2": 51500.0,
+      "stop": 47860.0,
+      "tp1": 59250.0,
+      "tp2": 65630.0
+    },
+    {
+      "symbole": "ETH",
+      "budget_eur": 100,
+      "t1": 1531.0,
+      "t2": 1440.0,
+      "stop": 1313.0,
+      "tp1": 1677.0,
+      "tp2": 1823.0
+    },
+    {
+      "symbole": "SOL",
+      "budget_eur": 10,
+      "t1": 62.29,
+      "t2": 56.51,
+      "stop": 50.09,
+      "tp1": 77.06,
+      "tp2": 89.91
+    },
+    {
+      "symbole": "XRP",
+      "budget_eur": 10,
+      "t1": 0.821,
+      "t2": 0.7448,
+      "stop": 0.6602,
+      "tp1": 1.016,
+      "tp2": 1.185
+    },
+    {
+      "symbole": "LINK",
+      "budget_eur": 10,
+      "t1": 7.914,
+      "t2": 7.18,
+      "stop": 6.364,
+      "tp1": 9.79,
+      "tp2": 11.42
+    },
+    {
+      "symbole": "ADA",
+      "budget_eur": 10,
+      "t1": 0.1291,
+      "t2": 0.1171,
+      "stop": 0.1038,
+      "tp1": 0.1597,
+      "tp2": 0.1863
+    },
+    {
+      "symbole": "DOGE",
+      "budget_eur": 10,
+      "t1": 0.04915,
+      "t2": 0.04459,
+      "stop": 0.03953,
+      "tp1": 0.06081,
+      "tp2": 0.07094
+    },
+    {
+      "symbole": "AVAX",
+      "budget_eur": 10,
+      "t1": 5.924,
+      "t2": 5.375,
+      "stop": 4.764,
+      "tp1": 7.329,
+      "tp2": 8.551
+    },
+    {
+      "symbole": "SUI",
+      "budget_eur": 10,
+      "t1": 0.5717,
+      "t2": 0.5186,
+      "stop": 0.4597,
+      "tp1": 0.7072,
+      "tp2": 0.8251
+    },
+    {
+      "symbole": "LTC",
+      "budget_eur": 10,
+      "t1": 36.13,
+      "t2": 32.78,
+      "stop": 29.05,
+      "tp1": 44.7,
+      "tp2": 52.15
+    },
+    {
+      "symbole": "ZEC",
+      "budget_eur": 10,
+      "t1": 638.8,
+      "t2": 551.4,
+      "stop": 470.7,
+      "tp1": 840.5,
+      "tp2": 1009.0
+    },
+    {
+      "symbole": "XLM",
+      "budget_eur": 10,
+      "t1": 0.11,
+      "t2": 0.09979,
+      "stop": 0.08845,
+      "tp1": 0.1361,
+      "tp2": 0.1588
+    }
+  ]
+}
