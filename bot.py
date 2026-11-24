@@ -341,6 +341,14 @@ def main():
                  f"{len(cfg['cryptos'])} cryptos. Tu recevras une notification à chaque action à faire.",
                  priorite=3, tags="robot")
 
+    # Premiere notification des que le sujet ntfy est configure : confirme que tout est relie
+    if os.environ.get("NTFY_TOPIC", "").strip() and not etat.get("notif_ok"):
+        etat["notif_ok"] = True
+        notifier("Bot relié à ton téléphone",
+                 f"Simulation du cycle {cfg['cycle']} avec {montant(cfg['capital_depart_eur'])} fictifs. "
+                 "Tu recevras une notification à chaque action à faire, et un bilan chaque soir à 20 h.",
+                 priorite=3, tags="robot")
+
     prix, erreurs = {}, []
     for c in cfg["cryptos"]:
         try:
