@@ -1,0 +1,133 @@
+{
+  "cycle": 1,
+  "debut": "2026-11-24T15:44:13+00:00",
+  "liquidites": 220.0,
+  "encaisse": 0.0,
+  "pause_danger": true,
+  "achats_bloques": false,
+  "arret_total": false,
+  "cycle_bouclable_signale": false,
+  "dernier_bilan": "",
+  "positions": {
+    "BTC": {
+      "statut": "attente",
+      "t1": false,
+      "t2": false,
+      "quantite": 0.0,
+      "investi": 0.0,
+      "recu": 0.0,
+      "stop": 47860.0,
+      "dernier_prix": 54470.55
+    },
+    "ETH": {
+      "statut": "attente",
+      "t1": false,
+      "t2": false,
+      "quantite": 0.0,
+      "investi": 0.0,
+      "recu": 0.0,
+      "stop": 1313.0,
+      "dernier_prix": 1529.055
+    },
+    "SOL": {
+      "statut": "attente",
+      "t1": false,
+      "t2": false,
+      "quantite": 0.0,
+      "investi": 0.0,
+      "recu": 0.0,
+      "stop": 50.09,
+      "dernier_prix": 62.76
+    },
+    "XRP": {
+      "statut": "attente",
+      "t1": false,
+      "t2": false,
+      "quantite": 0.0,
+      "investi": 0.0,
+      "recu": 0.0,
+      "stop": 0.6602,
+      "dernier_prix": 0.8315
+    },
+    "LINK": {
+      "statut": "attente",
+      "t1": false,
+      "t2": false,
+      "quantite": 0.0,
+      "investi": 0.0,
+      "recu": 0.0,
+      "stop": 6.364,
+      "dernier_prix": 8.03974
+    },
+    "ADA": {
+      "statut": "attente",
+      "t1": false,
+      "t2": false,
+      "quantite": 0.0,
+      "investi": 0.0,
+      "recu": 0.0,
+      "stop": 0.1038,
+      "dernier_prix": 0.13071
+    },
+    "DOGE": {
+      "statut": "attente",
+      "t1": false,
+      "t2": false,
+      "quantite": 0.0,
+      "investi": 0.0,
+      "recu": 0.0,
+      "stop": 0.03953,
+      "dernier_prix": 0.05018
+    },
+    "AVAX": {
+      "statut": "attente",
+      "t1": false,
+      "t2": false,
+      "quantite": 0.0,
+      "investi": 0.0,
+      "recu": 0.0,
+      "stop": 4.764,
+      "dernier_prix": 5.972
+    },
+    "SUI": {
+      "statut": "attente",
+      "t1": false,
+      "t2": false,
+      "quantite": 0.0,
+      "investi": 0.0,
+      "recu": 0.0,
+      "stop": 0.4597,
+      "dernier_prix": 0.5824240625046107
+    },
+    "LTC": {
+      "statut": "attente",
+      "t1": false,
+      "t2": false,
+      "quantite": 0.0,
+      "investi": 0.0,
+      "recu": 0.0,
+      "stop": 29.05,
+      "dernier_prix": 36.508
+    },
+    "ZEC": {
+      "statut": "attente",
+      "t1": false,
+      "t2": false,
+      "quantite": 0.0,
+      "investi": 0.0,
+      "recu": 0.0,
+      "stop": 470.7,
+      "dernier_prix": 646.705
+    },
+    "XLM": {
+      "statut": "attente",
+      "t1": false,
+      "t2": false,
+      "quantite": 0.0,
+      "investi": 0.0,
+      "recu": 0.0,
+      "stop": 0.08845,
+      "dernier_prix": 0.113063
+    }
+  }
+}
