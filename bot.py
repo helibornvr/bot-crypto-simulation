@@ -346,7 +346,9 @@ def main():
         etat["notif_ok"] = True
         notifier("Bot relié à ton téléphone",
                  f"Simulation du cycle {cfg['cycle']} avec {montant(cfg['capital_depart_eur'])} fictifs. "
-                 "Tu recevras une notification à chaque action à faire, et un bilan chaque soir à 20 h.",
+                 "Tu recevras une notification à chaque action à faire, et un bilan chaque soir à 20 h."
+                 + ("\nEn ce moment : achats en pause, le bitcoin a trop baissé sur 24 h."
+                    if etat.get("pause_danger") else ""),
                  priorite=3, tags="robot")
 
     prix, erreurs = {}, []
