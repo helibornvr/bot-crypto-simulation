@@ -1,2 +1,5 @@
 date_paris;crypto;action;prix_eur;montant_eur;quantite;raison
 2026-11-25 01:09;ETH;achat t1;1527.74;50.00;0.032531607;prix sous le seuil d'achat
+2026-11-25 09:27;BTC;achat t1;53859.2;50.00;0.00092277617;prix sous le seuil d'achat
+2026-11-25 09:27;SOL;achat t1;62.065;5.00;0.080077338;prix sous le seuil d'achat
+2026-11-25 09:27;AVAX;achat t1;5.919;5.00;0.83966886;prix sous le seuil d'achat
