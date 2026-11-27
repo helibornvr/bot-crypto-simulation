@@ -7,7 +7,7 @@
   "achats_bloques": false,
   "arret_total": false,
   "cycle_bouclable_signale": false,
-  "dernier_bilan": "2026-11-26",
+  "dernier_bilan": "2026-11-27",
   "positions": {
     "BTC": {
       "statut": "t1",
@@ -17,7 +17,7 @@
       "investi": 50.0,
       "recu": 0.0,
       "stop": 47860.0,
-      "dernier_prix": 56176.855
+      "dernier_prix": 54661.89
     },
     "ETH": {
       "statut": "t1",
@@ -27,7 +27,7 @@
       "investi": 50.0,
       "recu": 0.0,
       "stop": 1313.0,
-      "dernier_prix": 1573.93
+      "dernier_prix": 1525.635
     },
     "SOL": {
       "statut": "t1",
@@ -37,7 +37,7 @@
       "investi": 5.0,
       "recu": 0.0,
       "stop": 50.09,
-      "dernier_prix": 66.775
+      "dernier_prix": 65.73
     },
     "XRP": {
       "statut": "attente",
@@ -47,7 +47,7 @@
       "investi": 0.0,
       "recu": 0.0,
       "stop": 0.6602,
-      "dernier_prix": 0.894
+      "dernier_prix": 0.86705
     },
     "LINK": {
       "statut": "attente",
@@ -57,7 +57,7 @@
       "investi": 0.0,
       "recu": 0.0,
       "stop": 6.364,
-      "dernier_prix": 8.69159
+      "dernier_prix": 8.569425
     },
     "ADA": {
       "statut": "attente",
@@ -67,7 +67,7 @@
       "investi": 0.0,
       "recu": 0.0,
       "stop": 0.1038,
-      "dernier_prix": 0.139495
+      "dernier_prix": 0.136435
     },
     "DOGE": {
       "statut": "attente",
@@ -77,7 +77,7 @@
       "investi": 0.0,
       "recu": 0.0,
       "stop": 0.03953,
-      "dernier_prix": 0.053415
+      "dernier_prix": 0.052745
     },
     "AVAX": {
       "statut": "t1",
@@ -87,7 +87,7 @@
       "investi": 5.0,
       "recu": 0.0,
       "stop": 4.764,
-      "dernier_prix": 6.2085
+      "dernier_prix": 6.064
     },
     "SUI": {
       "statut": "attente",
@@ -97,7 +97,7 @@
       "investi": 0.0,
       "recu": 0.0,
       "stop": 0.4597,
-      "dernier_prix": 0.6286343988905874
+      "dernier_prix": 0.6144987226094042
     },
     "LTC": {
       "statut": "attente",
@@ -107,7 +107,7 @@
       "investi": 0.0,
       "recu": 0.0,
       "stop": 29.05,
-      "dernier_prix": 40.7135
+      "dernier_prix": 40.168
     },
     "ZEC": {
       "statut": "attente",
@@ -117,7 +117,7 @@
       "investi": 0.0,
       "recu": 0.0,
       "stop": 470.7,
-      "dernier_prix": 691.629
+      "dernier_prix": 679.936
     },
     "XLM": {
       "statut": "attente",
@@ -127,7 +127,7 @@
       "investi": 0.0,
       "recu": 0.0,
       "stop": 0.08845,
-      "dernier_prix": 0.11859
+      "dernier_prix": 0.1160135
     }
   },
   "notif_ok": true
