@@ -17,7 +17,7 @@
       "investi": 50.0,
       "recu": 0.0,
       "stop": 47860.0,
-      "dernier_prix": 54118.205
+      "dernier_prix": 54380.98
     },
     "ETH": {
       "statut": "t1",
@@ -27,7 +27,7 @@
       "investi": 50.0,
       "recu": 0.0,
       "stop": 1313.0,
-      "dernier_prix": 1505.3
+      "dernier_prix": 1506.415
     },
     "SOL": {
       "statut": "t1",
@@ -37,7 +37,7 @@
       "investi": 5.0,
       "recu": 0.0,
       "stop": 50.09,
-      "dernier_prix": 64.66
+      "dernier_prix": 64.47
     },
     "XRP": {
       "statut": "attente",
@@ -47,7 +47,7 @@
       "investi": 0.0,
       "recu": 0.0,
       "stop": 0.6602,
-      "dernier_prix": 0.8574
+      "dernier_prix": 0.85765
     },
     "LINK": {
       "statut": "attente",
@@ -57,7 +57,7 @@
       "investi": 0.0,
       "recu": 0.0,
       "stop": 6.364,
-      "dernier_prix": 8.356915
+      "dernier_prix": 8.298795
     },
     "ADA": {
       "statut": "attente",
@@ -67,7 +67,7 @@
       "investi": 0.0,
       "recu": 0.0,
       "stop": 0.1038,
-      "dernier_prix": 0.13275
+      "dernier_prix": 0.13238
     },
     "DOGE": {
       "statut": "attente",
@@ -77,7 +77,7 @@
       "investi": 0.0,
       "recu": 0.0,
       "stop": 0.03953,
-      "dernier_prix": 0.051555
+      "dernier_prix": 0.051575
     },
     "AVAX": {
       "statut": "t1",
@@ -87,7 +87,7 @@
       "investi": 5.0,
       "recu": 0.0,
       "stop": 4.764,
-      "dernier_prix": 5.9415
+      "dernier_prix": 5.875
     },
     "SUI": {
       "statut": "attente",
@@ -97,7 +97,7 @@
       "investi": 0.0,
       "recu": 0.0,
       "stop": 0.4597,
-      "dernier_prix": 0.6044558908320639
+      "dernier_prix": 0.6006623029217094
     },
     "LTC": {
       "statut": "attente",
@@ -107,7 +107,7 @@
       "investi": 0.0,
       "recu": 0.0,
       "stop": 29.05,
-      "dernier_prix": 40.038
+      "dernier_prix": 39.905
     },
     "ZEC": {
       "statut": "attente",
@@ -117,7 +117,7 @@
       "investi": 0.0,
       "recu": 0.0,
       "stop": 470.7,
-      "dernier_prix": 662.923
+      "dernier_prix": 657.079
     },
     "XLM": {
       "statut": "attente",
@@ -127,7 +127,7 @@
       "investi": 0.0,
       "recu": 0.0,
       "stop": 0.08845,
-      "dernier_prix": 0.113106
+      "dernier_prix": 0.1123435
     }
   },
   "notif_ok": true
